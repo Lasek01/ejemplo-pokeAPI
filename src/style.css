@@ -1,0 +1,31 @@
+h1, p {
+  font-family: Lato;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.list-container{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.pokemon-name{
+  color: white;
+  text-transform: capitalize;
+  background-color: rgb(250, 137, 137);
+  text-align: center;
+  border: solid 2px black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pokemon-name:hover{
+  box-shadow: 3px 3px grey;
+  background-color: white;
+  color: rgb(250, 137, 137);
+}
